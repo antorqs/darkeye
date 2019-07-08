@@ -13,5 +13,10 @@
   "web_accessible_resources": [
     "darkeye.css",
     "images/*.png"
-  ]
+  ],
+  "icons": { 
+    "16": "icons/de_16.png",
+    "48": "icons/de_48.png",
+    "128": "icons/de_128.png" 
+  }
 }
