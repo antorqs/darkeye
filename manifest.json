@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Fisheye dark mode",
+  "version": "0.1.0",
+  "description": "Enable dark mode on fisheye",
+ 
+  "content_scripts": [{
+    "js": ["darkeye.js"],
+    "matches": ["https://fisheye.tuenti.io/*"],
+    "all_frames": true
+  }],
+  "web_accessible_resources": [
+    "darkeye.css",
+    "images/*.png"
+  ]
+}

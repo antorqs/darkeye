@@ -1,0 +1,276 @@
+/*body {
+  background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important;
+}
+ */
+.source,
+.unifiedDiff {
+    background-color: #2B2B2B;
+    color: #A9B7C6;
+} 
+
+.hl_attrib,
+.hl_identifier {
+    color:#A9B7C6;
+}
+
+.hl_symbol {
+    color: #37C;
+}
+
+.hl_starttag,
+.hl_endtag,
+.hl_keyword {
+    color: #CB772F;
+    font-weight:bold;
+}
+
+.hl_type {
+    color:#CB772F;
+    font-weight:bold;
+}
+
+.hl_comment {
+    color:#619647;
+}
+
+.hl_commentmeta {
+    color:#619647;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.hl_string {
+    color:#A5C25C;
+    font-weight:bold;
+}
+
+.hl_slashy {
+    color: #4F1F90;
+}
+
+.hl_numeric {
+    color:#00F;
+}
+
+.hl_escape {
+    color:#F00;
+}
+
+.hl_todo {
+    color:#00F;
+    font-weight:bold;
+}
+
+.hl_preprocessor {
+    color:#000080;
+    font-weight:bold;
+}
+
+.hl_regex {
+    color:#000080;
+}
+
+.hl_char_literal {
+    color: #A5C25C;
+    font-weight: bold;
+}
+
+.hl_class_id {
+    color:#5e7bbc;
+    font-weight: bold;
+}
+
+.hl_elem_id {
+    color:#5e7bbc;
+}
+
+.hl_pseudo_class {
+    color:#5e7bbc;
+}
+
+.hl_css_url {
+    color:#A5C25C;
+}
+
+.hl_html_tag {
+    color:#A5C25C;
+}
+
+.hl_css_attrib_key {
+    color:#64d7ec;
+}
+
+.hl_css_attrib_val {
+    color:#9876AA;
+}
+
+.hl_decorator,
+.hl_annotation {
+    color:#FFC66D;
+}
+
+.blame-info td.author, 
+.blame-info td.author:not(.cell-empty) {
+    color: #40fff9;
+    background-color: #2B2B2B !important;
+}
+
+.blame-info td.revision, 
+.blame-info td.revision:not(.cell-empty) {
+    background-color: #474747 !important;
+    border-right: 1px solid #575656 !important;
+}
+
+td.lineContent {
+    border-left: 1px solid #575656;
+    border-right: 1px solid #575656;
+}
+
+.diffContentA, 
+.ediffContentA,
+td.diffContentA,
+td.ediffContentA {
+    /* background-color: #752e2e; */
+    background-color: rgb(120, 45, 45, 0.4);
+}
+
+.diffContentB,
+.ediffContentB,
+td.diffContentB,
+td.ediffContentB {
+    /* background-color: #006100; */
+    background-color: rgb(0, 100, 0, 0.4);
+}
+
+.diffChangedA,
+.ediffChangedA {
+    background-color: #501e1e;
+}
+
+.diffChangedB,
+.ediffChangedB {
+    background-color: #003600;
+}
+
+.diffLineNumbersA {
+    /* background-color: #4f1f1f; */
+    background-color: rgb(80, 30, 30, 0.4);
+}
+
+.diffLineNumbersB {
+    /* background-color: #003600; */
+    background-color: rgb(0, 54, 0, 0.4);
+}
+
+td.diffLineNumbersA, .textDelMarker {
+    color: #D25252;
+}
+
+td.diffLineNumbersB, .textAddMarker {
+    color: #619647;
+}
+
+.hl_numeric {
+    color: #6897BB;
+}
+
+.activeFrx .diffSkipped td {
+    height: 28px;
+    background: transparent url('chrome-extension://__MSG_@@extension_id__/images/background_frx_concat.png') repeat scroll 0 0;
+    background-color: #575656;
+}
+
+.tetrisColumn,
+.diffNav {
+    background-color: #2B2B2B;
+} 
+
+.diffNav {
+    border-right: 1px solid #575656;
+}
+
+.comment-list {
+    background-color: #424242;
+    color: #d4dce5;
+    border: 1px #575656 solid;
+}
+
+.comment.current_comment {
+    border-bottom: 1px solid #575656;
+}
+
+.comment-actions-inner *:not(.aui-lozenge) {
+    color: #ccd1d7;
+}
+
+.comment-actions li:not(:empty) ~ li a:before, 
+.comment-actions li:not(:empty) ~ li .prevent-comment-action-separator .first-element:before, 
+.comment-actions li:not(:empty) ~ li .prevent-comment-action-separator.first-element:before {
+    content: "·";
+    color: #b2b9bf;
+}
+
+.comment:hover:not(form) {
+    background-color: #323232;
+}
+
+.inlineSource .lineHighlighted, 
+.inlineSource .lineHighlighted .diffLineNumbers, 
+.inlineSource .lineHighlighted .diffLineNumbersA, 
+.inlineSource .lineHighlighted .diffLineNumbersB, 
+.inlineSource .lineHighlighted .diffMarkerCol, 
+.inlineSource .lineHighlighted .diffContent, 
+.inlineSource .lineHighlighted .diffContentA, 
+.inlineSource .lineHighlighted .diffContentB, 
+.inlineSource .lineHighlighted .ediffContentA, 
+.inlineSource .lineHighlighted .ediffContentB {
+    background-color: #253a3f;
+}
+
+.markup .code {
+    border: 1px #575656 solid;
+}
+
+.markup .codeContent {
+    background-color: #2B2B2B;
+}
+
+.markup .code-keyword {
+    color: #CB772F;
+}
+
+.comment-container ~ .comment-container, 
+.commentForm ~ .comment-container, 
+.comment-container ~ .fileCommentForm, 
+.reply-container .comment-container {
+    border-top: 1px #575656 solid;
+}
+
+.comment-resolution:not(:empty) {
+    border-top: 1px solid #575656;
+}
+
+.comment-form-placeholder textarea,
+textarea.commentTextarea {
+    background-color: #575656;
+    border-color: #575656;   
+    color: #c5d1de;
+}
+
+.comment .wiki-buttons {
+    background-color: #c5d1de;
+}
+
+form.aui .checkbox>label, 
+form.aui .radio>label {
+    color: #b2b9bf;
+}
+
+.comment.unread, .comment.leaveUnread {
+    background-color: #394a5c;
+}
+
+.comment.unread:hover, .comment.leaveUnread:hover {
+    background-color: #263a4f;
+}
