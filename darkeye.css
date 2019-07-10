@@ -274,3 +274,14 @@ form.aui .radio>label {
 .comment.unread:hover, .comment.leaveUnread:hover {
     background-color: #263a4f;
 }
+
+.diff td.lineContent, 
+.annPane td.lineContent {
+    color: #A9B7C6;
+}
+
+.wiki-preview-pane {
+    background-color: #575656;
+    border-color: #575656;
+    color: #c5d1de;
+}
